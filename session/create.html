@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Understanding CRUD - with Sample US Death Certificate Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section>
+            <a href="index.php">Go </a> to view all emails.
+            <form action="create.php" method="post">
+                <h1><center>Appendix A - Sample US Death Certificate Form</center></h1>
+                <p>The sample death reporting form included in this content profile reflects much of the data captured for the U.S. Standard certificate of Death. However, the VRDR content profile may be modified to include and accommodate international death reporting requirements.</p>
+                <h2><center>Death Reporting For Records</center></h2>
+                
+                <fieldset>
+                          <legend>Decedent's Name (Include AKA's if any)</legend>
+                    
+                    <ul>
+                              <li>
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="fname" id="firstName" />
+                        </li>
+                        <li>
+                            <label for="middleName">Middle Name</label>
+                            <input type="text" name="mname" id="middleName" />
+                        </li>
+                         <li>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lname" id="lastName" />
+                        </li>
+                        <li>
+                            <label for="dateOfBirth">Date of Birth</label>
+                            <input type="text" name="dBirth" id="dateOfBirth" />
+                        </li>
+                        <li>
+                        Gender: <select name="Gender"> <option value="male">Male</option><option value="female">Female</option></select>
+                        </li>
+                        <li>
+                            <label for="socialSecurityNumber">Social Security Number</label>
+                            <input type="text" name="sSNumber" id="socialSecurityNumber" />
+                        </li>
+                        <li>
+                            <label for="facilityName">Facility Name</label>
+                            <input type="text" name="facName" id="facilityName" />
+                        </li>
+                    </ul>
+                          
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Decedent of Hispanic Origin</legend>
+                    <p>
+                    Check the box that best describes whether the decedent is Spanish / Hispanic / Latino. Check the "No" box if decedent is not Spanish / Hispanic /Latino:
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="origin" checked="checked" id="origin1" value="No, not Spanish / Hispanic / Latino" />
+                            <label for="origin1">No, not Spanish / Hispanic / Latino</label>                  
+                        </li>
+                        <li>
+                            <input type="radio" name="origin" id="origin2" value="Yes, Mexican, Mexican American, Chicano" />
+                            <label for="origin2">Yes, Mexican, Mexican American, Chicano</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="origin" id="origin3" value="Yes, Puerto Rican" />
+                            <label for="origin3">Yes, Puerto Rican</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="origin" id="origin4" value="Yes, Cuban" />
+                            <label for="origin4">Yes, Cuban</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="origin" id="origin5" value="Yes, other Spanish / Hispanic / Latino(Specify)" />
+                            <label for="origin5">Yes, other Spanish / Hispanic / Latino(Specify)</label>                           
+                        </li>
+                       
+                        </ul>
+                          
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Decedent's Race</legend>
+                    <p>
+                    Check one or more races to indicate what the Decedent considered himself or herself to be:
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="radio" name="race" checked="checked" id="race1" value="White" />
+                            <label for="race1">White</label>                  
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race2" value="Filipino" />
+                            <label for="race2">Filipino</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race3" value="Native Hawaiian" />
+                            <label for="race3">Native Hawaiian</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race4" value="Black or African American" />
+                            <label for="race4">Black or African American</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race5" value="Japanese" />
+                            <label for="race6">Japanese</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race6" value="Guamanian" />
+                            <label for="race6">Guamanian</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race7" value="American Indian or Alaska Native" />
+                            <label for="race7">American Indian or Alaska Native</label>                           
+                        </li>
+                        
+                         <li>
+                            <input type="radio"  name="race"  id="race8"  value="Korean"  />
+                            <label for="race8">Korean</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race9" value="Samoan" />
+                            <label for="race9">Samoan</label>                           
+                        </li>
+                       
+                        <li>
+                            <input type="radio" name="race" id="race10" value="Vietnamese" />
+                            <label for="race10">Vietnamese</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race11" value="Other Pacific Islander" />
+                            <label for="race11">Other Pacific Islander</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race12" value="Asian Indian" />
+                            <label for="race12">Asian Indian</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race13" value="Other Asian" />
+                            <label for="race13">Other Asian</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="race" id="race14" value="Asi" />
+                            <label for="race14">Asian Indian</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="race" id="race15" value="Other" />
+                            <label for="race15">Other</label>                           
+                        </li>
+                    </ul>
+                </fieldset> 
+                
+                <fieldset>
+                    <legend>Items Must be Completed by Person Who Pronounces or Certifies Death</legend>
+                    
+                    <ul>
+                        <li>
+                            <label for="date">Date Pronounced Dead</label>
+                            <input type="text" name="date" id="date" />
+                        </li>
+                        
+                        <li>
+                            <label for="time">Time Pronounced Dead</label>
+                            <input type="text" name="time" id="time" />
+                        </li>
+                        <li>
+                            <label for="signature">Signature Of Person Pronouncing Death</label>
+                            <input type="text" name="signature" id="signature" />
+                        </li>
+                        <li>
+                            <label for="licenseNumber">License Number</label>
+                            <input type="text" name="licenseNumber" id="licenseNumber" />
+                        </li>
+                        
+                        <li>
+                            <label for="dateOfSigned">Date Signed</label>
+                            <input type="text" name="dateOfSigned" id="dateOfSigned" />
+                        </li>
+                        <li>
+                            <label for="actualBirthDate"> Actual or Presumed date of birth</label>
+                            <input type="text" name="actualBirthDate" id="actualBirthDate" />
+                        </li>
+                        
+                        <li>
+                            <label for="actualTime">  Actual or Presumed Time of Death</label>
+                            <input type="text" name="actualTime" id="actualTime" />
+                        </li>
+                    
+                        <li>
+                            Was Medical Examiner or Coroner Contacted? 
+                            <input type="radio" name="coroner" id="coroner1" value="Yes" />
+                            <label for="coroner1">Yes</label>      
+                            <input type="radio" name="coroner" id="coroner2" value="No" />
+                            <label for="coroner2">No</label> 
+                        </li>
+                    </ul>
+                </fieldset> 
+                
+                <fieldset>
+                    <legend>Cause of Death (See instructions and examples)</legend>
+                    <p>PART I. Enter the chain of events -- diseases, injuries, or complications--that directly caused the death. 
+                         DO NOT enter terminal events such as  cardiac arrest, respiratory arrest, or ventricular fibrllation without showing the etiology. 
+                         DO NOT ABBREVIATE. Enter only one cause on a line. Add additional lines if necessary.
+                    </p>
+                    <ul>
+                        <li>
+                            <label for="immediateCause">a. Immediate cause (Final disease or condition resulting in death)</label>
+                            <input type="text" name="immediateCause" id="immediateCause" />
+                        </li>
+                        
+                        <li>
+                            <label for="due">Due to (or as a consequence of)</label>
+                            <input type="text" name="due" id="due" />
+                        </li>
+                        <li>
+                            <label for="onsetToDeath1">Onset to death</label>
+                            <input type="text" name="onsetToDeath1" id="onsetToDeath1" />
+                        </li>
+                        <li>
+                            <label for="sequentially">b. Sequentially list Conditions, (if any, leading to the cause listed on line a.)</label>
+                            <input type="text" name="sequentially" id="sequentially" />
+                        </li>
+                        
+                        <li>
+                            <label for="due1">Due to (or as a consequence of)</label>
+                            <input type="text" name="due1" id="due1" />
+                        </li>
+                        <li>
+                            <label for="onsetToDeath2">Onset to death</label>
+                            <input type="text" name="onsetToDeath2" id="onsetToDeath2" />
+                        </li>
+                        
+                        <li>
+                            <label for="underlyingCause">c. Enter the Underlying Cause, (Disease or injury that initiated the events resulting in death):</label>
+                            <input type="text" name="underlyingCause" id="underlyingCause" />
+                        </li>
+                        
+                        <li>
+                            <label for="due2">Due to (or as a consequence of)</label>
+                            <input type="text" name="due2" id="due2" />
+                        </li>
+                        
+                        <li>
+                            <label for="onsetToDeath3">Onset to death</label>
+                            <input type="text" name="onsetToDeath3" id="onsetToDeath3" />
+                        </li>
+                        <li>
+                            <label for="last">d. Last</label>
+                            <input type="text" name="last" id="last" />
+                        </li>
+                        
+                        <li>
+                            <label for="onsetToDeath4">Onset to death</label>
+                            <input type="text" name="onsetToDeath4" id="onsetToDeath4" />
+                        </li>
+                        
+                        </ul>
+                </fieldset>
+                
+                <fieldset>
+                   
+                    <legend>PART II. Enter other significant conditions contributing to death but not resulting in the underlying cause given in PART I</legend>
+                    <textarea  name="comment" rows="4" cols="180" ></textarea>
+                    
+                </fieldset>
+                
+                <fieldset>
+                        <ul>
+                        <li>
+                            Was an Autospy Performed? 
+                            <input type="radio" name="autospy" checked="checked" id="autospy1" value="Yes" />
+                            <label for="autospy1">Yes</label>      
+                            <input type="radio" name="autospy" id="autospy2" value="No" />
+                            <label for="autospy2">No</label>         
+                        </li>
+                        
+                        <li>
+                            Where Autospy Findings Available To Complete The Cause of Death? 
+                            <input type="radio" name="autospyF" checked="checked" id="autospyF1" value="Yes" />
+                            <label for="autospyF1">Yes</label>      
+                            <input type="radio" name="autospyF" id="autospyF2" value="No" />
+                            <label for="autospyF2">No</label>         
+                        </li>
+                        
+                         <li>
+                            Did Tobacco Use Contribute To Death?
+                            <input type="radio" name="tobacco" checked="checked" id="tobacco1" value="Yes" />
+                            <label for="tobacco1">Yes</label>      
+                            <input type="radio" name="tobacco" id="tobacco2" value="No" />
+                            <label for="tobacco2">No</label> 
+                            <input type="radio" name="tobacco" id="tobacco3" value="Yes" />
+                            <label for="tobacco3">Probably</label>      
+                            <input type="radio" name="tobacco" id="tobacco4" value="No" />
+                            <label for="tobacco4">Unknown</label>
+                        </li>
+                        
+                        </ul>    
+                </fieldset> 
+                <fieldset>
+                    <legend>If Female</legend>
+                    
+                    <ul>
+                        <li>
+                            <input type="radio" name="ifFemale" checked="checked" id="ifFemale1" value="Not Pregnant within past year" />
+                            <label for="ifFemale1">Not Pregnant within past year</label>                  
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="ifFemale" id="ifFemale2" value="Pregnant at time of death" />
+                            <label for="ifFemale2">Pregnant at time of death</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="ifFemale" id="ifFemale3" value="Not pregnant but pregnant within 42 days of death" />
+                            <label for="ifFemale3">Not pregnant but pregnant within 42 days of death</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="ifFemale" id="ifFemale4" value="Not pregnant, but pregnant 43days to 1 year before" />
+                            <label for="ifFemale4">Not pregnant, but pregnant 43days to 1 year before</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="ifFemale" id="ifFemale5" value="Unknown if pregnant within the past year" />
+                            <label for="ifFemale5">Unknown if pregnant within the past year</label>                           
+                        </li>
+                       
+                    </ul>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Manner Of Death</legend>
+                    
+                    <ul>
+                        <li>
+                            <input type="radio" name="manner" checked="checked" id="manner1" value="Natural" />
+                            <label for="manner1">Natural</label>                  
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="manner" id="manner2" value="Homicide" />
+                            <label for="manner2">Homicide</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="manner" id="manner3" value="Accident" />
+                            <label for="manner3">Accident</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="manner" id="manner4" value="Pending Investigation" />
+                            <label for="manner4">Pending Investigation</label>                           
+                        </li>
+                        
+                          <li>
+                            <input type="radio" name="manner" id="manner5" value="Suicide" />
+                            <label for="manner5">Suicide</label>                           
+                        </li>
+                        
+                         <li>
+                            <input type="radio" name="manner" id="manner6" value="Could not be determined" />
+                            <label for="manner6">Could not be determined</label>                           
+                        </li>
+                       
+                    </ul>
+                </fieldset> 
+                
+                <fieldset>
+                    <legend>Injury</legend>
+                    
+                    <ul>
+                        <li>
+                            <label for="dateOfInjury">Date of Injury</label>
+                            <input type="text" name="dateOfInjury" id="dateOfInjury" />
+                        </li>
+                        
+                        <li>
+                            <label for="timeOfInjury"> Time of Injury</label>
+                            <input type="text" name="timeOfInjury" id="timeOfInjury" />
+                        </li>
+                        <li>
+                            <label for="placeOfInjury">Place of Injury</label>
+                            <input type="text" name="placeOfInjury" id="placeOfInjury" />
+                        </li>
+                                            
+                        <li>
+                            Injury At Work?
+                            <input type="radio" name="injuryAtWork" id="injuryAtWork1" value="Yes" />
+                            <label for="injuryAtWork2">Yes</label>      
+                            <input type="radio" name="injuryAtWork" id="injuryAtWork2" value="No" />
+                            <label for="injuryAtWork2">No</label> 
+                        </li>
+                    </ul>
+                </fieldset>  
+                
+                <fieldset>
+                    <legend>Location of Injury</legend>
+                    
+                    <ul>
+                        <li>
+                            <label for="state1">State</label>
+                            <input type="text" name="state" id="state1" />
+                        </li>
+                        
+                        <li>
+                            <label for="city1">City or Town</label>
+                            <input type="text" name="city" id="city1" />
+                        </li>
+                        <li>
+                            <label for="streetAndNumber">Street and Number</label>
+                            <input type="text" name="streetAndNumber" id="streetAndNumber" />
+                        </li>
+                        
+                         <li>
+                            <label for="apartmentNo">Apartment No</label>
+                            <input type="text" name="apartmentNo" id="apartmentNo" />
+                        </li>
+                        <li>
+                            <label for="zipCode">Zip Code</label>
+                            <input type="text" name="zipCode1" id="zipCode" />
+                        </li>
+                                            
+                    </ul>
+                </fieldset>
+                
+                <fieldset>
+                   
+                    <legend>Describe How Injury Occurred</legend>
+                    <textarea name="comment2" rows="4" cols="180"></textarea>     
+                
+                </fieldset>
+                
+                <fieldset>
+                    <legend>If Transportation Injury</legend>
+                    
+                    <ul>
+                        <li>
+                            <input type="radio" name="transportationInjury" checked="checked" id="transportationInjury1" value="Driver/Operator" />
+                            <label for="transportationInjury1">Driver/Operator</label>                  
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="transportationInjury" id="transportationInjury2" value="Passenger" />
+                            <label for="transportationInjury2">Passenger</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="transportationInjury" id="transportationInjury3" value="Pedestrian" />
+                            <label for="transportationInjury3">Pedestrian</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="transportationInjury" id="transportationInjury4" value="Other (Specify)" />
+                          
+                            <label for="transportationInjury4">Other (Specify)</label> 
+                            <input type="text" name="transportationInjury1">
+                        </li>
+                        
+                    </ul>
+                </fieldset> 
+                
+                <fieldset>
+                    <legend>Certifier</legend>
+                    <p>Check only one:</p>
+                    
+                    <ul>
+                        <li>
+                            <input type="radio" name="certifier" checked="checked" id="certifierInjury1" value="Certifying Physician - To the best of my knowledge death occurred due to the cause(s) and manner stated" />
+                            <label for="certifier1">Certifying Physician - To the best of my knowledge death occurred due to the cause(s) and manner stated</label>                  
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="certifier" id="certifier2" value="Pronouncing and Certifying Physician - To the best of my knowledge, death occurred at the time, date, and place and due to the cause(s) and manner stated." />
+                            <label for="certifier2">Pronouncing and Certifying Physician - To the best of my knowledge, death occurred at the time, date, and place and due to the cause(s) and manner stated.</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="certifier" id="certifier3" value="Medical Examiner or coroner - on the basis of examination, and/or investigation, in my opinion, death occurred at the time, date, and place, and due to the cause(s) and manner stated" />
+                            <label for="certifier3">Medical Examiner or coroner - on the basis of examination, and/or investigation, in my opinion, death occurred at the time, date, and place, and due to the cause(s) and manner stated</label>                           
+                        </li>
+                        
+                        <li>
+                            <input type="radio" name="certifier" id="certifier4" value="Other (Specify)" />
+                          
+                            <label for="certifier4">Signature of Certifier</label> 
+                            <input type="text" name="certifier1">
+                        </li>
+                        
+                    </ul>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Person Completing Cause of Death</legend>
+                    
+                    <ul>
+                        <li>
+                            <label for="cause1">Name</label>
+                            <input type="text" name="name1" id="cause1" />
+                        </li>
+                        
+                        <li>
+                            <label for="cause2">Address</label>
+                            <input type="text" name="address" id="cause2" />
+                        </li>
+                        <li>
+                            <label for="cause3">ZIP code</label>
+                            <input type="text" name="zipCode" id="cause3" />
+                        </li>
+                        <li>
+                            <label for="cause4">Title of certifier</label>
+                            <input type="text" name="titleOfCertifier" id="cause4" />
+                        </li>
+                        
+                        <li>
+                            <label for="cause5" >License Number</label>
+                            <input type="text" name="licenseNumber" id="cause5" />
+                        </li>
+                        <li>
+                            <label for="cause6">Date Certified</label>
+                            <input type="text" name="dateCertified" id="cause6" />
+                        </li>
+                    </ul>
+                </fieldset>
+                        
+                <input type="Submit" value="Submit" />
+              </section>
+    </body>
+</html>
+
+
+             
+        
+        
+
+
+
+
+
+
+
+
+
+
