@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
+<<<<<<< HEAD
             <name>Exercise file_batch03</name>
+=======
+            <name>arifff</name>
+>>>>>>> b51db5c84d6c13f66eeeacb2e14e4c7bdfe89454
         </data>
     </configuration>
 </project>
