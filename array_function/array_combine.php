@@ -1,4 +1,3 @@
-
 <?php
 echo'<pre>';
 $a = array('green', 'red', 'yellow');
@@ -7,4 +6,3 @@ $c = array_combine($a, $b);
 
 print_r($c);
 ?>
-
