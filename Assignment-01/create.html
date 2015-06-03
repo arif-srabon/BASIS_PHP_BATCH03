@@ -1,0 +1,143 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Death Certificate</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Death Certificate</h1>
+        <h4>The elements defines the options to select. The list will normally show the first item as selected. You can add  a selected attributed to define a predefined option.</h4>
+        <h3> Death Reporting For Vital Records</h3>
+        <h5><b>Decedents Information:</b></h5>
+        <p>Information gives here</p>
+        <section>
+        <form action="create.php" method="post">
+        <fieldset>
+            <legend>Section1</legend>
+            <ul>
+                <li>
+                    <label for="firstname">Enter Your Email</label>
+                    <input  type="text" name="firstname" id="firstname" autofocus="autofocus" placeholder="ex. arif">
+                </li>
+                <li>
+                    <label for="lastname">Enter Your Full-Name</label>
+                    <input  type="text" name="lastname" id="lastname"  placeholder="ex. Hossain">
+                </li>
+                 <li>
+                    <label for="mname">Middle Name</label>
+                     <input type="text" id="mname" name="mname">
+                 </li>
+                 <li>
+                      <label for="dob">Date Of Birth</label>
+                     <input type="text" id="dob" name="dob">
+                 </li>
+                 <li>
+                     <label for="gender">Gender</label>
+                     <select name="gender">
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                     </select>
+              </li>
+               <li>
+            <label for="ssn">Social Secuirity Number</label>
+            <input type="text" id="ssn" name="ssn">
+             </li>
+             <li>
+            <label for="facilityname">Facility Name</label>
+            <input type="text" id="facilityname" name="facilityname">
+        </li>
+
+            </ul>
+            </fieldset>
+            </br>
+                <h3> Decedent of Hispanic Origin</h3></br>
+            <hr>
+            <fieldset>
+                <legend>Check The Box That best Describe</legend>
+                <ul>
+                    <li>
+                        <label for="origin1"> </label>
+                 <input type="radio" name="origin" id="origin1" value="No, NOt Spanish" checked="checked"> No, NOt Spanish
+                    </li>
+                    <li>
+                        <label for="origin2"> </label>
+                <input type="radio" name="origin" id="origin2" value="Yes, Spanish"> Yes, Spanish
+                    </li>
+                    <li>
+                         <label for="origin3"></label>
+                <input type="radio" name="origin" id="origin3" value="No, English" > No, English
+                    </li>
+                    <li>
+                         <label for="origin4"> </label>
+                <input type="radio" name="origin" id="origin4" value="Yes, English"> Yes, English
+                    </li>
+                    <li>
+                         <label for="origin5"> </label>
+                <input type="radio" name="origin" id="origin5" value="No, Not Bangladeshi" > No, Not Bangladeshi
+                    </li>
+                    <li>
+                         <label for="origin6"></label>
+                <input type="radio" name="origin" id="origin6" value="Yes, Bangladeshi"> Yes, Bangladeshi
+                    </li>
+                </ul>
+            </fieldset>
+            </br>
+            <h1>Decedents Race </h1>
+            <hr>
+            <fieldset>
+                <legend>Click One or More to indicate</legend>
+                <ul>
+                    <li>
+                        <label for="race1"> </label>
+                 <input type="radio" name="race" id="race1" value="white" checked="checked"> white
+                    </li>
+                    <li>
+                        <label for="race2"> </label>
+                <input type="radio" name="race" id="race2" value="Yellow"> Yellow
+                    </li>
+                    <li>
+                         <label for="race3"></label>
+                <input type="radio" name="race" id="race3" value="green" > green
+                    </li>
+                    <li>
+                         <label for="race4"> </label>
+                <input type="radio" name="race" id="race4" value="red"> red
+                    </li>
+                </ul>
+            </fieldset>
+            <br>
+            <section>
+                <h2>Manner of Death:</h2>
+                <fieldset>
+                    <legend>Click Here to indicate Manner of Death</legend>
+                   <ul>
+                         <li>
+                             <label for="manner1"></label>
+                             <input type="radio" name="manner" id="manner1" value="Natural" checked="checked">Natural
+                         </li>
+                         <li> 
+                             <label for="manner2"></label>
+                             <input type="radio" name="manner" id="manner2" value="Accident">Accident
+                         </li>
+                         <li> 
+                              <label for="manner3"></label>
+                             <input type="radio" name="manner" id="manner3" value="killed">killed
+                         </li>
+                         <li>
+                              <label for="manner4"></label>
+                             <input type="radio" name="manner" id="manner4" value="Suicied">Suicied 
+                         </li>
+                     </ul>
+                </fieldset>
+            </section>
+            <input type="submit" name="btn" value="submit">
+           <input type="reset" name="reset" value="reset">
+        </form>
+        </section>
+        <a href="index.php">Back</a>
+    </body>
+</html>
